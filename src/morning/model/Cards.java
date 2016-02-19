@@ -22,5 +22,21 @@ public Cards()
 	 
 	 return CardDeckDescription;
  }
+
+
+
+public void setnumberOfCards(int i)
+{
+	// TODO Auto-generated method stub
+	
+}
+
+
+
+public void setcardColor(Color black)
+{
+	// TODO Auto-generated method stub
+	
+}
  
 }
