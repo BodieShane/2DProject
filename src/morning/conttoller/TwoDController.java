@@ -10,11 +10,11 @@ public class TwoDController
 	private TwoDFrame baseFrame;
 	private Cards [][] myCards;
 	
-	public TwoDCtroller()
+	public TwoDController()
 	{
 		myCards = new Cards[5][5];
 		setupArray();
-		baceFrame =new TwoDFrame(this);
+		baseFrame = new TwoDFrame(this);
 		
 	}
 	
@@ -46,5 +46,6 @@ public class TwoDController
 	
 	public Cards [][] getMyCards()
 	{
+		return myCards;
 	}
 }
